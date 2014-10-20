@@ -1,0 +1,7 @@
+<% @messages.each do |message| %>
+  <div class="message">
+    <h3><%= message.title %> <samll>(by: <%= message.author %>)</samll></h3>
+      <p>
+        <%= message.content %>
+      </p>
+  </div>
